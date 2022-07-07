@@ -1,0 +1,17 @@
+{
+  "name": "ms-authentication",
+  "version": "1.0.0",
+  "description": "Microserviço de autenticação com JWT",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "node ./",
+    "build": "tsc -p ."
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alessandro Miranda",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.0.3",
+    "typescript": "^4.7.4"
+  }
+}
